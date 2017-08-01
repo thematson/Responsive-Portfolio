@@ -1,0 +1,569 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  /*font-size: 24px;*/
+  line-height: 32px;
+  color: #777777;
+  background-image: url("../images/wavegrid_@2X.png");
+  background-repeat:repeat;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  margin:0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  padding: 2px:
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+/*.wrapper {
+    height: auto;
+    margin: 0 auto -80px;
+    min-height: 100%;
+    padding: 0 0 80px;
+    box-sizing: border-box;
+    overflow: auto;
+}*/
+
+.container {
+  width: 960px
+}
+
+.navbar {
+  background: #ffffff;
+  overflow: hidden;
+  margin-bottom: 40px;
+
+}
+.navbar ul {
+  list-style: none;
+  padding-right: 0;
+  margin: 0;
+}
+.navbar li a {
+  float: right;
+  line-height: 90px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #333;
+}
+.navbar li a:hover {
+  background-color: #999;
+  color: #fff;
+}
+
+.headerline {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #777777;
+    margin-bottom: 30px;
+    color: #4aaaa5;
+    text-align: left;
+}
+
+.about-me-avatar {
+    float: left;
+    margin: 0 10px -20px 0;
+
+}
+
+#namebox {
+  position: absolute;
+  width: auto;
+  height: 90px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  margin-left: 120px;
+  top: 0px;
+  padding: 30px;
+  /*padding-left: 30px;
+  padding-right: 30px;*/
+}
+
+
+#aboutme {
+  float: left;
+  width: 650px;
+  background-color: #ffffff;
+  border: 10px #dddddd;
+
+  padding: 40px 25px 40px 25px;
+  margin-left: 120px;
+
+
+}
+
+.aside {
+  margin: auto;
+  max-width: 270px;
+  width: 270px;
+  text-align: center;
+  float: left;
+
+}
+
+/*#connect {
+  text-align: center;
+  float: left;
+  width: 270px;
+  background-color: #ffffff;
+  padding: 30px 0 30px 0;
+  margin-left: 40px;
+  padding: 0 25px 25px 25px;
+}*/
+
+
+
+#connectlist {
+  display: inline-block;
+  background-color: #ffffff;
+  overflow: hidden;
+  text-align: center;
+  padding: 25px ;
+  width: 270px;
+  margin-left: 40px;
+}
+
+#connectlist ul {
+  display: block;
+  padding: 0px;
+  list-style: none;
+  float: left;
+  margin: 10px auto;
+}
+
+#connectlist li {
+  list-style: none;
+  margin: 0 5px;
+
+}
+
+ #connectlist li {
+    width: 60px;
+    height: 60px;
+    display: block;
+    float: left;
+}
+
+#connectlist li:hover {
+  box-shadow: 0 0 15px #777
+}
+
+
+#portfolio {
+  background-color: #ffffff;
+  float: left;
+  margin-left: 120px;
+  padding: 25px;
+  width: 650px;
+  height: 870px;
+  margin-bottom: 150px;
+}
+
+#contact-box {
+  background-color: #ffffff;
+  float: left;
+  margin-left: 90px;
+  width: 645px;
+  margin-bottom: 150px;
+  padding: 25px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-size: 16px;
+    resize: none;
+}
+
+#img-hangman {
+  float: left;
+  width: 275px;
+  height: 205px;
+  background-image:url(../images/hangman.jpg);
+  background-size: 275px 205px;
+
+}
+#img-rpg-game {
+  margin-left: 40px;
+  float: left;
+  width: 275px;
+  height: 205px;
+  background-image:url(../images/rpg_game.jpg);
+  background-size: 275px 205px;
+}
+
+#img-trivia {
+  float: left;
+  width: 275px;
+  height: 205px;
+  background-image:url(../images/trivia_game.jpg);
+  background-size: 275px 205px;
+  margin-top: 50px;
+}
+
+#img-info-widget {
+  margin-left: 40px;
+  float: left;
+  width: 275px;
+  height: 205px;
+  background-image:url(../images/info_widget.jpg);
+  background-size: 275px 205px;
+  margin-top: 50px;
+}
+
+#img-rock-paper {
+  float: left;
+  width: 275px;
+  height: 205px;
+  background-image:url(../images/rock_paper_scissors.jpg);
+  background-size: 275px 205px;
+  margin-top: 50px;
+}
+
+#main-avi {
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-image: url(../images/avi_matson_reduced.jpg);
+  background-size: 150px 150px;
+  margin-right: 25px;
+}
+
+.port-caption {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  margin-top: 135px;
+  opacity: 1;
+  text-align: center;
+  padding: 15px;
+  font-weight: lighter;
+}
+
+#submit {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  width: 115px;
+  height: 40px;
+  font-size: 15px;
+}
+
+#submit:hover {
+  border: none;
+  background-color: #0078d7;
+  box-shadow: 0 0 15px #777:
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 14px 42px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.footer {
+
+  background-color: #666666;
+    color: #eeeeee;
+    border-top: 2px solid #4aaaa5;
+    height: 100px;
+    padding-top: 30px;
+    margin-top: 20px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 980px) {
+
+  .navbar ul {
+    padding-right: 50px;
+  }
+
+  #aboutme {
+    width: 415px;
+    margin-bottom: 150px;
+  }
+
+  #portfolio {
+    position: relative;
+    width: 415px;
+    height: auto;
+  }
+
+
+  #img-hangman {
+    width: 100%;
+    height: 270px;
+    margin: 0 0 55px 0;
+    background-size: 100%;
+    }
+
+  #img-rpg-game {
+    width: 100%;
+    height: 270px;
+    margin: 0 0 55px 0;
+    background-size: 100%;
+    }
+  #img-rock-paper {
+    width: 100%;
+    height: 270px;
+    margin: 0 0 55px 0;
+    background-size: 100%;
+    }
+  #img-trivia {
+    width: 100%;
+    height: 270px;
+    margin: 0 0 55px 0;
+    background-size: 100%;
+    }
+  #img-info-widget {
+    width: 100%;
+    height: 270px;
+    margin: 0 0 55px 0;
+    background-size: 100%;
+    }
+
+  .port-caption {
+      margin-top: 200px;
+    }
+
+  #contact-box {
+    width: 415px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar ul {
+    padding-right: 0px;
+  }
+
+  #namebox {
+    margin-left: 20px;
+  }
+
+  #aboutme {
+    width: 725px;
+    margin-left: 21px;
+    margin-bottom: 40px;
+  }
+
+  #connectlist {
+    width: 725px;
+    margin: 0 21px 150px;
+  }
+
+  #portfolio {
+    width: 725px;
+    margin-left: 21px;
+    margin-bottom: 40px;
+  }
+  #img-hangman {
+    width: 310px;
+    height: 235px;
+    margin: 0 40px 40px 0;
+    background-size: 100%;
+    }
+
+  #img-rpg-game {
+    width: 310px;
+    height: 235px;
+    margin: 0 0 40px 0;
+    background-size: 100%;
+    }
+  #img-rock-paper {
+    width: 310px;
+    height: 235px;
+    margin: 0 0 40px 0;
+    background-size: 100%;
+    }
+  #img-trivia {
+    width: 310px;
+    height: 235px;
+    margin: 0 40px 40px 0;
+    background-size: 100%;
+    }
+  #img-info-widget {
+    width: 310px;
+    height: 235px;
+    margin: 0 0 40px 0;
+    background-size: 100%;
+    }
+
+  #main-avi {
+    width: 250px;
+    height: 250px;
+    background-size: 100%;
+  }
+
+  .port-caption {
+      margin-top: 165px;
+    }
+
+  #contact-box {
+    margin-left: 20px;
+    margin-bottom: 40px;
+    width: 725px;
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+  
+  body {
+    width: 640px;
+  }
+
+  #namebox {
+    position: relative;
+    
+    width: 640px;
+    height: auto;
+    text-align: center;
+    margin-left: 0;
+    padding: 24px;
+  }
+
+  .navbar li a {
+    float: left;
+    line-height: 60px;
+    padding: 2px 0;
+    width: 33%;
+    text-align: center;
+
+  }
+
+  .headerline {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+  }
+
+  #aboutme {
+    width: 600px;
+    margin: 0 20px 40px 20px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  #main-avi {
+    width: 550px;
+    height: 550px;
+    margin: 0 0 25px 0;
+  }
+
+  p.aboutme {
+    float: left;
+  }
+
+  .aside {
+    max-width: 600px;
+    width: 100%;
+  }
+
+  #connectlist {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  #portfolio {
+    max-width: 600px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+    #img-hangman {
+    width: 540px;
+    height: 405px;
+    margin: 0 40px 40px 0;
+    background-size: 100%;
+    }
+
+  #img-rpg-game {
+    width: 540px;
+    height: 405px;
+    margin: 0 0 40px 0;
+    background-size: 100%;
+    }
+  #img-rock-paper {
+    width: 540px;
+    height: 405px;
+    margin: 0 0 40px 0;
+    background-size: 100%;
+    }
+  #img-trivia {
+    width: 540px;
+    height: 405px;
+    margin: 0 40px 40px 0;
+    background-size: 100%;
+    }
+  #img-info-widget {
+    width: 540px;
+    height: 405px;
+    margin: 0 0 40px 0;
+    background-size: 100%;
+    }
+
+  .port-caption {
+      margin-top: 333px;
+    }
+
+    #contact-box {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    width: 100%;
+  }
+
+
+}

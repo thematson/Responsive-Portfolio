@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Portfolio</title>
+    <meta name="description" content="DESCRIPTION">
+     <link rel="stylesheet" href="assets/css/reset.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--[if lt IE 9]>
+      <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+
+<body>
+
+
+<div class="header">
+  <header>
+
+    <div id="namebox"><h1>Eric Matson</h1></div>
+
+     <nav class="navbar">
+        <ul class="nav">
+          <ul style="list-style-type:none">
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html">About</a><li>
+            </ul>
+          </ul>
+        </nav>
+  </header>
+
+<div class="body">
+
+  <div id="contact-box">
+    <h1 class="headerline">Contact</h1>
+
+  <form action="/action_page.php">
+   <label for="name">Name</label>
+   <input type="text" id="name" name="name" placeholder="John Smith">
+
+   <label for="email">Email</label>
+   <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+   <label for="message">Message</label>
+   <textarea>
+   </textarea>
+
+   <input type="submit" value="Submit">
+ </form>
+
+
+  </div>
+  <div class="aside">
+
+          <div id="connectlist">
+            <h3 class="headerline">Connect with Me</h3>
+          <ul>
+
+              <li class="github"><a href="https://github.com/thematson"><img alt="GitHub"
+              src="assets/images/github_128.png" width="60" height="60"</a></li>
+              <li class="linkedin"><a href="https://www.linkedin.com/in/eric-matson-57535a45/"><img
+              alt="LinkedIn" src="assets/images/linkedin_128.png" width="60" height="60"</a></li>
+              <li class="stackoverlfow"><a href="https://stackoverflow.com/users/8313796/eric-matson"><img
+              alt="StackOverflow" src="assets/images/stackoverflow_128.png" width="60" height="60"</a></li>
+            <!-- </a> -->
+          </ul>
+          </div>
+  </div>
+
+</div>
+</div>
+
+
+<div class="footer">
+   <div id="footer"><h5>&#169; Copyright 2016 Eric Matson</h5>
+   </div>
+
+</div>
+
+</body>
+
+</html>

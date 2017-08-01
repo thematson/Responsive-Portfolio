@@ -1,2 +1,4 @@
-# Responsive-Portfolio
-this is a Responsive Portfolio... obviously
+# Basic-Portfolio
+Responive basic portfolio
+
+this will have the potfolio respond to different screen sizes.
